@@ -13,8 +13,8 @@ import lombok.ToString;
 public class TodoRequestDTO {
     private String  title;
     private String  content;
-    //private String  startDate; 
-    private Date  startDate; 
+    private String  startDate; 
+    //private Date  startDate; 
     private String  endDate; 
     private String  status; 
     private int     priority; 

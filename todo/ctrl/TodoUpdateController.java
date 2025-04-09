@@ -30,6 +30,14 @@ public class TodoUpdateController {
     public int updateTodo(Map<String,Object> map){
         System.out.println(">>> TodoUpdateController updateTodo");
         // return 0;
+
+        // Map<String,Object> map = Map.of("title", request.getTitle(), 
+        //                             "content", request.getContent(), 
+        //                             "startDate", request.getStartDate(), 
+        //                             "endDate", request.getEndDate(), 
+        //                             "priority", request.getPriority()
+        //                             // "seq", request.getSeq()
+        //                             );
         return service.updateService(map);
     }
 
